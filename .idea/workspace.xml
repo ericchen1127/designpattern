@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c5bf9179-0ddf-41f2-8c6c-d9c91607b946" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="designpattern" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YTUbROrkEPeogoF2HMs5XFG1Ky" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eric.designpattern.behavioral.chainofresponsibility" />
+      <recent name="com.eric.designpattern.structural" />
+      <recent name="com.eric.designpattern.structural.composite" />
+      <recent name="com.eric.designpattern.structural.facade" />
+      <recent name="com.eric.designpattern.structural.decorator" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.eric.designpattern.behavioral.command" />
+      <recent name="com.eric.designpattern.behavioral.strategy" />
+      <recent name="com.eric.designpattern.behavioral.templatemethod" />
+      <recent name="com.eric.designpattern.structural.flyweight" />
+      <recent name="com.eric.designpattern.structural.bridge" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ChainOfResponsibilityTest">
+    <configuration name="ChainOfResponsibilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioral.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="behavioral" />
+      <option name="MAIN_CLASS_NAME" value="behavioral.ChainOfResponsibilityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChainOfResponsibilityTest.testChainOfResponsibility" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioral.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="behavioral" />
+      <option name="MAIN_CLASS_NAME" value="behavioral.ChainOfResponsibilityTest" />
+      <option name="METHOD_NAME" value="testChainOfResponsibility" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandTest.testCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioral.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="behavioral" />
+      <option name="MAIN_CLASS_NAME" value="behavioral.CommandTest" />
+      <option name="METHOD_NAME" value="testCommand" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioral.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="behavioral" />
+      <option name="MAIN_CLASS_NAME" value="behavioral.StrategyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyTest.testStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioral.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="behavioral" />
+      <option name="MAIN_CLASS_NAME" value="behavioral.StrategyTest" />
+      <option name="METHOD_NAME" value="testStrategy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ChainOfResponsibilityTest" />
+        <item itemvalue="JUnit.ChainOfResponsibilityTest.testChainOfResponsibility" />
+        <item itemvalue="JUnit.CommandTest.testCommand" />
+        <item itemvalue="JUnit.StrategyTest" />
+        <item itemvalue="JUnit.StrategyTest.testStrategy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5bf9179-0ddf-41f2-8c6c-d9c91607b946" name="Default Changelist" comment="" />
+      <created>1582966148446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582966148446</updated>
+      <workItem from="1582966154927" duration="15500000" />
+      <workItem from="1583029192163" duration="22696000" />
+      <workItem from="1583064545762" duration="5010000" />
+      <workItem from="1583576946980" duration="6807000" />
+      <workItem from="1583635668250" duration="7629000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1583036919073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1583036919073" />
+    <state x="511" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583036582642">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1583036582642" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1583669333976">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583669333976" />
+    <state x="388" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583036314832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="388" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1583036314831" />
+    <state x="548" y="271" width="485" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582976962663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="271" width="485" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1582976962663" />
+    <state x="513" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582979948297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="513" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1582979948297" />
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom" timestamp="1583669904025">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583669904025" />
+    <state width="1493" height="200" key="GridCell.Tab.0.center" timestamp="1583669904025">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583669904025" />
+    <state width="1493" height="200" key="GridCell.Tab.0.left" timestamp="1583669904024">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583669904024" />
+    <state width="1493" height="200" key="GridCell.Tab.0.right" timestamp="1583669904025">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583669904025" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1582974168024">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582974168024" />
+    <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1582968712094">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1582968712094" />
+    <state width="498" height="448" key="SwitcherDM" timestamp="1583578403842">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="448" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1583578403842" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1583635682209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583635682209" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1583070615380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1583070615380" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1583639943910">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583639943910" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/designpattern$creative_in_designpattern.ic" NAME="creative in designpattern Coverage Results" MODIFIED="1583578751131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>creative.*</FILTER>
+    </SUITE>
+  </component>
+</project>
