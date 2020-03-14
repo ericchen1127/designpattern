@@ -18,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -34,8 +37,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -57,7 +62,15 @@
       <recent name="com.eric.designpattern.structural.bridge" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ChainOfResponsibilityTest">
+  <component name="RunManager" selected="JUnit.All in designpattern">
+    <configuration name="All in designpattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designpattern" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChainOfResponsibilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designpattern" />
       <extension name="coverage">
@@ -120,29 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyTest.testStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="designpattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behavioral.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="behavioral" />
-      <option name="MAIN_CLASS_NAME" value="behavioral.StrategyTest" />
-      <option name="METHOD_NAME" value="testStrategy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in designpattern" />
         <item itemvalue="JUnit.ChainOfResponsibilityTest" />
         <item itemvalue="JUnit.ChainOfResponsibilityTest.testChainOfResponsibility" />
         <item itemvalue="JUnit.CommandTest.testCommand" />
         <item itemvalue="JUnit.StrategyTest" />
-        <item itemvalue="JUnit.StrategyTest.testStrategy" />
       </list>
     </recent_temporary>
   </component>
@@ -168,10 +165,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Project_Structure" timestamp="1583036919073">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1584164808534">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1583036919073" />
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1584164808534" />
     <state x="511" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583036582642">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
