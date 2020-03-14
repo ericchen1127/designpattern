@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5bf9179-0ddf-41f2-8c6c-d9c91607b946" name="Default Changelist" comment="" />
+    <list default="true" id="c5bf9179-0ddf-41f2-8c6c-d9c91607b946" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eric/designpattern/behavioral/state/AbstractState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eric/designpattern/behavioral/state/AngryState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eric/designpattern/behavioral/state/HappyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eric/designpattern/behavioral/state/StateContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/behavioral/StateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,14 +62,14 @@
       <recent name="com.eric.designpattern.structural.decorator" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.eric.designpattern.behavioral.state" />
       <recent name="com.eric.designpattern.behavioral.command" />
       <recent name="com.eric.designpattern.behavioral.strategy" />
       <recent name="com.eric.designpattern.behavioral.templatemethod" />
       <recent name="com.eric.designpattern.structural.flyweight" />
-      <recent name="com.eric.designpattern.structural.bridge" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in designpattern">
+  <component name="RunManager" selected="JUnit.StateTest.testState">
     <configuration name="All in designpattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designpattern" />
       <option name="PACKAGE_NAME" value="" />
@@ -118,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StateTest.testState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
@@ -127,19 +134,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="behavioral" />
-      <option name="MAIN_CLASS_NAME" value="behavioral.StrategyTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="behavioral.StateTest" />
+      <option name="METHOD_NAME" value="testState" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StateTest.testState" />
         <item itemvalue="JUnit.All in designpattern" />
         <item itemvalue="JUnit.ChainOfResponsibilityTest" />
         <item itemvalue="JUnit.ChainOfResponsibilityTest.testChainOfResponsibility" />
         <item itemvalue="JUnit.CommandTest.testCommand" />
-        <item itemvalue="JUnit.StrategyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +166,7 @@
       <workItem from="1583064545762" duration="5010000" />
       <workItem from="1583576946980" duration="6807000" />
       <workItem from="1583635668250" duration="7629000" />
+      <workItem from="1584164785072" duration="3331000" />
     </task>
     <servers />
   </component>
@@ -165,18 +174,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Project_Structure" timestamp="1584164808534">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1584168026625">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1584164808534" />
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1584168026625" />
     <state x="511" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583036582642">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="511" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1583036582642" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1583669333976">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1584167640166">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583669333976" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584167640166" />
     <state x="388" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583036314832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -189,22 +198,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="513" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1582979948297" />
-    <state width="1493" height="200" key="GridCell.Tab.0.bottom" timestamp="1583669904025">
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom" timestamp="1584168333515">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583669904025" />
-    <state width="1493" height="200" key="GridCell.Tab.0.center" timestamp="1583669904025">
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584168333515" />
+    <state width="1493" height="200" key="GridCell.Tab.0.center" timestamp="1584168333515">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583669904025" />
-    <state width="1493" height="200" key="GridCell.Tab.0.left" timestamp="1583669904024">
+    <state width="1493" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584168333515" />
+    <state width="1493" height="200" key="GridCell.Tab.0.left" timestamp="1584168333515">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583669904024" />
-    <state width="1493" height="200" key="GridCell.Tab.0.right" timestamp="1583669904025">
+    <state width="1493" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584168333515" />
+    <state width="1493" height="200" key="GridCell.Tab.0.right" timestamp="1584168333515">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583669904025" />
+    <state width="1493" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584168333515" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1582974168024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -221,14 +230,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583635682209" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1584166831731">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1584166831731" />
     <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1583070615380">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1583070615380" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1583639943910">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584166312935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583639943910" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584166312935" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/designpattern$creative_in_designpattern.ic" NAME="creative in designpattern Coverage Results" MODIFIED="1583578751131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
