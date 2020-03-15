@@ -15,7 +15,7 @@ public abstract class AbstractApprover {
     }
 
     public void approve(int days) {
-        if (meetCondition(days)) {
+        if (check(days)) {
             doApprove();
         } else {
             System.out.println("go to the next approver");
@@ -27,7 +27,7 @@ public abstract class AbstractApprover {
         }
     }
 
-    protected abstract boolean meetCondition(int days);
+    protected abstract boolean check(int days);
 
     protected abstract void doApprove();
 }

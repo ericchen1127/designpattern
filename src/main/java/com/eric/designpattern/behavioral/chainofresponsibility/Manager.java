@@ -5,7 +5,7 @@ package com.eric.designpattern.behavioral.chainofresponsibility;
  */
 public final class Manager extends AbstractApprover {
     @Override
-    protected boolean meetCondition(int days) {
+    protected boolean check(int days) {
         return days > 3 && days <= 10;
     }
 
